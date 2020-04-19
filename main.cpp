@@ -20,7 +20,7 @@ int main() {
 		system("PAUSE");
 	}
 	else if (choice == 2) {
-		system("sc config vgk start= disabled");
+		system("sc config vgk start= system");
 
 		std::cout << "Riot Vanguard Enabled, Please Restart Your PC";
 
