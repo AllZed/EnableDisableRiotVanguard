@@ -31,4 +31,9 @@ int main() {
 		
 		system("PAUSE");
 	}
+	else {
+		std::cout << "Invalid Choice. Please Choose 1-3" << std::endl;
+		
+		system("PAUSE");
+	}
 }
