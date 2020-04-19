@@ -15,14 +15,14 @@ int main() {
 	if (choice == 1) {
 		system("sc config vgk start= disabled");
 
-		std::cout << "Riot Vanguard Disabled, Please Restart Your PC";
+		std::cout << "Riot Vanguard Disabled, Please Restart Your PC" << std::endl;
 
 		system("PAUSE");
 	}
 	else if (choice == 2) {
 		system("sc config vgk start= system");
 
-		std::cout << "Riot Vanguard Enabled, Please Restart Your PC";
+		std::cout << "Riot Vanguard Enabled, Please Restart Your PC" << std::endl;
 
 		system("PAUSE");
 	}
